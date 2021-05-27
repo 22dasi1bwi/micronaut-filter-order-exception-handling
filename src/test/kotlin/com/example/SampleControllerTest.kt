@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test
 import javax.inject.Inject
 
 @MicronautTest
-@Property(name = "micronaut.security.enabled", value = "false")
 class SampleControllerTest {
 
     @Inject
